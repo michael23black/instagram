@@ -1,11 +1,15 @@
 .story {
 	width: 130px;
 	height: 130px;
+	min-width: 130px;
+	min-height: 130px;
 	text-decoration: none;
 } 
 @media all and (max-width:800px){
 	.story{
 		width: 85px;
 		height: 85px;
+		min-width: 85px;
+		min-height: 85px;
 	}
 }

@@ -27,12 +27,16 @@
 .story {
   width: 130px;
   height: 130px;
+  min-width: 130px;
+  min-height: 130px;
   text-decoration: none; }
 
 @media all and (max-width: 800px) {
   .story {
     width: 85px;
-    height: 85px; } }
+    height: 85px;
+    min-width: 85px;
+    min-height: 85px; } }
 .story__image {
   width: 80px;
   height: 80px;
@@ -110,6 +114,26 @@
 @media all and (max-width: 600px) {
   .menu-link__label {
     display: none; } }
+.original-posts {
+  background-color: #fafafa; }
+
+.original-posts__content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: -1.375%; }
+
+.content-block__posts {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-between; }
+
+.post-image {
+  width: 31.5%;
+  margin-bottom: -3px;
+  padding-bottom: 2.75%; }
+
 .footer {
   background-color: #fafafa; }
 
