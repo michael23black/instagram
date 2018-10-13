@@ -1,0 +1,34 @@
+@import "page__block.scss";
+@import "main-image.scss";
+
+@import "story-highlights.scss";
+@import "story-highlights__story-holder.scss";
+@import "content-block__story.scss";
+@import "story.scss";
+@import "story__image.scss";
+@import "story__label.scss";
+
+@import "posts-header";
+@import "posts-header__menu";
+@import "content-block__menu-link.scss";
+@import "menu-link.scss";
+@import "menu-link_active.scss";
+@import "menu-link__pub.scss";
+@import "menu-link__mark.scss";
+@import "menu-link__label.scss";
+
+@import "footer.scss";
+@import "footer__content-block.scss";
+@import "content-block.scss";
+@import "link-block.scss";
+@import "link-block__link.scss";
+@import "content-block__inst";
+
+.page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+

@@ -1,0 +1,11 @@
+.story {
+	width: 130px;
+	height: 130px;
+	text-decoration: none;
+} 
+@media all and (max-width:800px){
+	.story{
+		width: 85px;
+		height: 85px;
+	}
+}

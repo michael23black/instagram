@@ -1,0 +1,10 @@
+.menu-link_active {
+	border-top: 1px solid #000000;
+	color: #000000;	
+} 
+
+@media all and (max-width:600px){
+	.menu-link_active {
+		border: none;
+	}
+}

@@ -1,0 +1,11 @@
+.link-block {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 100%;
+}
+@media all and (max-width:800px){
+	.link-block{
+		justify-content: center;
+	}
+}

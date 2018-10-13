@@ -1,0 +1,9 @@
+.main-image {
+    background-image: url("../images/z-inst.png");
+}
+
+@media all and (max-width:600px){
+	.main-image {
+    	background-image: url("../images/z-inst-little.png");
+	}
+}

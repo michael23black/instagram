@@ -1,0 +1,10 @@
+.content-block__inst {
+	font-weight: bold;
+	color: #999999;
+	text-transform: uppercase;
+} 
+@media all and (max-width:800px){
+	.content-block__inst{
+		text-align: center;
+	}
+}

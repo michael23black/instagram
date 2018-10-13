@@ -1,0 +1,12 @@
+.posts-header__menu {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	border-top: 1px solid #efefef;
+} 
+
+@media all and (max-width:600px){
+	.posts-header__menu {
+		justify-content: space-around;
+	}
+}

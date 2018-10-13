@@ -1,0 +1,9 @@
+.menu-link__label {
+	margin-left: 5px;
+} 
+
+@media all and (max-width:600px){
+	.menu-link__label {
+		display: none;
+	}
+}
