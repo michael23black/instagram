@@ -3,3 +3,8 @@
 	flex-direction: row;
 	margin: 0px 20px 40px 20px;
 }  
+@media all and (max-width:600px){
+	.story-highlights__story-holder {
+		margin-bottom: 20px;
+	}
+}

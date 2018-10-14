@@ -1,10 +1,13 @@
 .main-info {
 	font-size: 17px;
 	line-height: 1.5;
+	background-color: #fafafa;
 }
 
 @media all and (max-width:600px){
 	.main-info {
 		font-size: 14px;
+		padding-left: 15px;
+		padding-bottom: 20px;
 	}
 }

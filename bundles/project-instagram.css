@@ -10,6 +10,12 @@
 @media all and (max-width: 600px) {
   .main-image {
     background-image: url("../images/z-inst-little.png"); } }
+.trans-subs {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-top: 1px solid #efefef; }
+
 .user-profile {
   background-color: #fafafa; }
 
@@ -63,7 +69,7 @@
   align-items: center;
   margin: 15px 0px 20px 0px; }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 400px) {
   .main-follow {
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -84,7 +90,7 @@
   font-weight: lighter;
   margin-right: 5px; }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 400px) {
   .main-follow__user {
     font-size: 20px; } }
 .main-follow__verif {
@@ -100,20 +106,51 @@
   flex-flow: row nowrap;
   align-items: center; }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 400px) {
   .double-holder {
     margin-bottom: 10px; } }
 .main-info {
   font-size: 17px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background-color: #fafafa; }
 
 @media all and (max-width: 600px) {
   .main-info {
-    font-size: 14px; } }
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px; } }
 .main-info__link {
   text-decoration: none;
   color: #003569; }
 
+.main-subs {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 20px;
+  background-color: #fafafa; }
+
+@media all and (max-width: 600px) {
+  .main-subs {
+    margin: 0px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 15px 10px; } }
+.main-subs__info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 17px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: #000000; }
+
+.main-subs:last-child {
+  margin-right: 0px; }
+
+@media all and (max-width: 600px) {
+  .main-subs__info {
+    font-size: 14px;
+    margin-right: 10px; } }
 .story-highlights {
   background-color: #fafafa; }
 
@@ -122,6 +159,9 @@
   flex-direction: row;
   margin: 0px 20px 40px 20px; }
 
+@media all and (max-width: 600px) {
+  .story-highlights__story-holder {
+    margin-bottom: 20px; } }
 .content-block__story {
   display: flex;
   flex-flow: column nowrap;

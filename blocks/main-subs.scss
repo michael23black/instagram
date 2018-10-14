@@ -1,0 +1,15 @@
+.main-subs {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 20px;
+	background-color: #fafafa;
+}
+
+@media all and (max-width:600px){
+	.main-subs {
+		margin: 0px;
+		width: 100%;
+		justify-content: space-around;
+		padding: 15px 10px;
+	}
+}
