@@ -1,0 +1,9 @@
+.fixed-header__header-content {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 36px;
+	margin: 20px 20px;
+	transition: margin 200ms linear;
+}

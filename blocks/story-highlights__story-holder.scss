@@ -1,10 +1,12 @@
 .story-highlights__story-holder {
 	display: flex;
 	flex-direction: row;
-	margin: 0px 20px 40px 20px;
+	padding-bottom: 40px;
+	margin: 0px 20px -15px 0px;     overflow-x: auto;
 }  
 @media all and (max-width:600px){
 	.story-highlights__story-holder {
-		margin-bottom: 20px;
+		margin-bottom: -15px;
+		padding-bottom: 20px;
 	}
 }

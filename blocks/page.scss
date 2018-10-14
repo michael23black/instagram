@@ -2,6 +2,20 @@
 @import "main-image.scss";
 @import "trans-subs.scss";
 
+@import "fixed-header.scss";
+@import "fixed-header__header-content.scss";
+@import "reg-link.scss";
+@import "content-block__h-sides.scss";
+@import "content-block__h-sides_center.scss";
+@import "content-block__h-sides_right.scss";
+@import "content-block__h-sides_left.scss";
+@import "line-draw.scss";
+@import "content-block__logo.scss";
+@import "button-holder.scss";
+@import "input-box.scss";
+@import "input.scss";
+@import "input-button.scss";
+
 @import "user-profile.scss";
 @import "user-profile__holder.scss";
 @import "content-block__avatar.scss";
@@ -59,5 +73,10 @@ a:focus, a:hover, a:link, a:visited, a:active {
     border: 0;
     padding: 0;
 }
-
-
+::placeholder {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+.placeholder-text-left::placeholder {
+	text-align: left;
+}

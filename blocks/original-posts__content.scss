@@ -3,4 +3,10 @@
 	flex-flow: column nowrap;
 	justify-content: center;
 	margin-bottom: -1.375%;
+
 }  
+@media all and (max-width:400px){
+	.original-posts__content {
+		margin-bottom: 0.75%; 
+	}
+}
