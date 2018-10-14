@@ -1,0 +1,10 @@
+.double-holder {
+	display:flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+@media all and (max-width:600px){
+	.double-holder {
+		margin-bottom: 10px;
+	}
+}

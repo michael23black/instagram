@@ -1,0 +1,11 @@
+.main-follow__user {
+	font-size: 32px;
+	font-weight: lighter;
+	margin-right: 5px; 
+}
+
+@media all and (max-width:600px){
+	.main-follow__user {
+		font-size: 20px; 
+	}
+}

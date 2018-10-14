@@ -1,6 +1,20 @@
 @import "page__block.scss";
 @import "main-image.scss";
 
+@import "user-profile.scss";
+@import "user-profile__holder.scss";
+@import "content-block__avatar.scss";
+@import "avatar.scss";
+@import "content-block__avatar-border.scss";
+@import "content-block__information.scss";
+@import "main-follow.scss";
+@import "link-button.scss";
+@import "main-follow__user.scss";
+@import "main-follow__verif.scss";
+@import "double-holder.scss";
+@import "main-info.scss";
+@import "main-info__link.scss";
+
 @import "story-highlights.scss";
 @import "story-highlights__story-holder.scss";
 @import "content-block__story.scss";
@@ -34,6 +48,13 @@
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 13px;
+}
+a:focus, a:hover, a:link, a:visited, a:active {
+	outline: none;
+}
+::focus-outer, ::focus-inner {
+    border: 0;
+    padding: 0;
 }
 
 

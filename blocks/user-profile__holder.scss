@@ -1,0 +1,11 @@
+.user-profile__holder {
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 118px 20px 20px 20px;
+}
+
+@media all and (max-width:600px){
+	.user-profile__holder {
+		margin: 98px 20px 20px 10px;
+	}
+}

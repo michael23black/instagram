@@ -1,0 +1,10 @@
+.main-info {
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+@media all and (max-width:600px){
+	.main-info {
+		font-size: 14px;
+	}
+}

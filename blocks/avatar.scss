@@ -1,0 +1,17 @@
+.avatar{
+	margin-bottom:-3px;
+	padding: 1px;
+	border: 5px solid #efefef;
+    border-radius: 50%;
+    background: #e6e6e6;
+}
+
+@media all and (max-width:600px){
+	.avatar{
+		border: 3px solid #efefef;
+		width: 75px;
+		height: 75px;
+		min-width: 75px;
+		min-height: 75px;	
+	}
+}
