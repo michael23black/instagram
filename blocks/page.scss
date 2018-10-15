@@ -83,3 +83,21 @@ a:focus, a:hover, a:link, a:visited, a:active {
 .placeholder-text-left::placeholder {
 	text-align: left;
 }
+
+/*Пасхалка №1*/
+.easter-egg {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.easter-egg__front {
+    position: absolute; 
+    z-index:1;
+    transition: filter 1s ease;
+}
+.easter-egg__back {
+    position: absolute;
+}
+.easter-egg__front:hover{
+    filter: opacity(0);
+}
