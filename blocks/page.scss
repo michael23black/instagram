@@ -73,9 +73,12 @@ a:focus, a:hover, a:link, a:visited, a:active {
     border: 0;
     padding: 0;
 }
-::placeholder {
+.input::placeholder {
+    font-size: 14px;
 	font-family: Arial, sans-serif;
+    text-overflow: ellipsis;
 	text-align: center;
+    width: 100px;
 }
 .placeholder-text-left::placeholder {
 	text-align: left;

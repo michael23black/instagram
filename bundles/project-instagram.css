@@ -88,6 +88,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 26px;
   height: 26px; }
 
@@ -102,9 +103,11 @@
   font-size: 14px;
   width: 100%;
   border: none;
+  background-color: #fafafa;
   background-image: url(../images/h-search.png);
   background-repeat: no-repeat;
-  background-position: calc(50% - 30px) 50%; }
+  background-position: calc(50% - 30px) 50%;
+  padding: 0px 25px; }
 
 .input-button {
   visibility: collapse;
@@ -431,9 +434,12 @@ a:focus, a:hover, a:link, a:visited, a:active {
   border: 0;
   padding: 0; }
 
-::placeholder {
+.input::placeholder {
+  font-size: 14px;
   font-family: Arial, sans-serif;
-  text-align: center; }
+  text-overflow: ellipsis;
+  text-align: center;
+  width: 100px; }
 
 .placeholder-text-left::placeholder {
   text-align: left; }
