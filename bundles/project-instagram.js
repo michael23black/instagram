@@ -17,6 +17,7 @@ $(function(){
 		}
 	});
 
+	storyCounter = 15;
 	$(window).on('scroll touchmove', function () {
 		if ($(document).scrollTop() != 0){ 
 			$('.fixed-header__header-content').css({'margin':'10px 20px'});
@@ -28,6 +29,29 @@ $(function(){
 			$('.fixed-header__header-content').css({'margin':'20px 20px'});
 			$('.line-draw').css({'visibility':'visible'});
 			$('.content-block__logo').css({'visibility':'visible'});
+		}
+		var imageCounter = 17;
+		var needStatus = $(document).height() - $('.content-block__posts').height() - $('.footer').height() - $(window).height();
+		if ($(document).scrollTop() > needStatus && storyCounter < imageCounter) {
+			if ((imageCounter - storyCounter) >= 3) {
+				var delta = 3;
+				storyCounter = storyCounter + 3;
+			}
+			else {
+				var delta = imageCounter % 3;
+				storyCounter = storyCounter + imageCounter % 3;
+			}
+			$('.original-posts__content').append('<div class="content-block__posts new"></div>');
+			for (var i = 0; i<3; i++, delta--){
+				if(delta > 0){
+					var deltaImage = storyCounter - delta +1;
+					var deltaCode = '<a class="post-image" href=""><img style="width: 100%;" src="images/posts-sketch/' + deltaImage + '.png"></a>';
+					$('.original-posts__content').children().last().append(deltaCode);
+				}
+				else {
+					$('.original-posts__content').children().last().append('<a class="post-image" href=""></a>');
+				}
+			}
 		}
 	});
 
